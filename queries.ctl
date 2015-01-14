@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE Queries.dat
+INTO TABLE Queries
+FIELDS TERMINATED BY '	'
+(qid,query)
